@@ -70,6 +70,7 @@ export const {
       return session;
     },
   },
+  secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET,
   pages: {
     signIn: "/login",
     error: "/auth/error",
