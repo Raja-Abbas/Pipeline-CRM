@@ -33,12 +33,44 @@ export const metadata: Metadata = {
     "SaaS",
     "Next.js",
     "TypeScript",
+    "Prisma",
+    "Tailwind CSS",
   ],
+  authors: [{ name: "Pipeline CRM" }],
+  creator: "Pipeline CRM",
+  metadataBase: new URL("https://pipeline-crm-next.netlify.app"),
   openGraph: {
-    title: "Pipeline CRM",
+    title: "Pipeline CRM — Close More Deals",
+    description:
+      "Multi-tenant CRM and sales pipeline platform for agencies and sales teams. Drag-and-drop Kanban, analytics, and real-time sync.",
+    url: "https://pipeline-crm-next.netlify.app",
+    siteName: "Pipeline CRM",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Pipeline CRM — Sales Pipeline Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pipeline CRM — Close More Deals",
     description:
       "Multi-tenant CRM and sales pipeline platform for agencies and sales teams.",
-    type: "website",
+    images: ["/og-image.svg"],
+  },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
