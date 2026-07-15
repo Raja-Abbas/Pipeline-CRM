@@ -63,11 +63,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl flex items-center justify-between h-16 px-6">
           <Logo size="sm" />
           <div className="flex items-center gap-3">
-            <Link href="/login">
-              <Button variant="ghost" size="sm">Sign in</Button>
-            </Link>
-            <Link href="/register">
-              <Button size="sm" className="rounded-xl">Get Started</Button>
+            <Link href="/dashboard">
+              <Button size="sm" className="rounded-xl">Launch Dashboard</Button>
             </Link>
           </div>
         </div>
@@ -90,14 +87,9 @@ export default function HomePage() {
             Track leads, manage deals, and never miss a follow-up.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/register">
-              <Button size="lg" className="rounded-xl text-base px-8 gap-2">
-                Start for free <ArrowRight className="h-4 w-4" />
-              </Button>
-            </Link>
             <Link href="/dashboard">
-              <Button variant="outline" size="lg" className="rounded-xl text-base px-8">
-                View Demo
+              <Button size="lg" className="rounded-xl text-base px-8 gap-2">
+                Launch Dashboard Free <ArrowRight className="h-4 w-4" />
               </Button>
             </Link>
           </div>
@@ -205,9 +197,9 @@ export default function HomePage() {
           <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
             Start tracking your pipeline and boosting your conversion rate today.
           </p>
-          <Link href="/register">
+          <Link href="/dashboard">
             <Button size="lg" className="rounded-xl text-base px-8 gap-2">
-              Get started for free <ArrowRight className="h-4 w-4" />
+              Launch Dashboard Free <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>
         </div>
