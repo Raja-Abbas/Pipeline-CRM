@@ -1,5 +1,7 @@
 # Pipeline CRM
 
+> **Status:** MVP 1 — Feature-complete prototype. All core features implemented and working. Login removed for public testing — all pages freely accessible.
+
 A multi-tenant SaaS CRM & sales pipeline platform for agencies and sales teams. Track leads, manage deals, and close more with visual Kanban pipeline views.
 
 ![Pipeline CRM](https://img.shields.io/badge/Built_with-Next.js_16-black?style=flat-square&logo=next.js)
@@ -67,11 +69,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-### Demo Credentials
-
-- **Email:** john@acmecorp.com
-- **Password:** password123
 
 ## Project Structure
 
