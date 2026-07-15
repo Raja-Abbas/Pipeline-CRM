@@ -43,7 +43,7 @@ A multi-tenant SaaS CRM & sales pipeline platform for agencies and sales teams. 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/pipeline-crm.git
+git clone https://github.com/raja-abbas-affandi/pipeline-crm.git
 cd pipeline-crm
 npm install
 ```
